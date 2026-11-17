@@ -63,10 +63,7 @@ blender --factory-startup --command extension validate .
 blender --factory-startup --command extension build --source-dir . --output-dir Builds
 ```
 
-## License and reference
+## License
 
 The extension manifest declares **GPL-2.0-or-later**.
 See the [GNU GPL version 2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
-
-The Save Pie workflow was inspired by [MACHIN3tools](https://machin3.io/MACHIN3tools/docs/pie_save/).
-SmartTools is not affiliated with or endorsed by MACHIN3tools.
