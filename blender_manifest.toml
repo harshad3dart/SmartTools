@@ -1,0 +1,24 @@
+schema_version = "1.0.0"
+
+id = "smart_tools"
+version = "1.0.0"
+name = "SmartTools"
+tagline = "Focus, pie menus, cursor tools, and file saving for Blender"
+maintainer = "Antigravity"
+type = "add-on"
+
+# Optional: Add-on properties
+blender_version_min = "4.2.0"
+license = [
+    "SPDX-License-Identifier: GPL-2.0-or-later"
+]
+
+# Advanced build settings.
+[build]
+paths_exclude_pattern = [
+    "__pycache__/",
+    "/.git/",
+    "/tests/",
+    "/Builds/",
+    "/*.zip",
+]

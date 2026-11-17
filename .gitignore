@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+/Builds/
+/dist/
+/tests/test_results.json
+.DS_Store
+Thumbs.db
